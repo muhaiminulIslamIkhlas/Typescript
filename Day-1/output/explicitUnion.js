@@ -1,14 +1,14 @@
 "use strict";
-var a;
-var b;
+let a;
+let b;
 // a = 4;
 // b = "Hello";
 // a = "Muhaimin";
 // b = 7;
-var c;
-var array = [];
+let c;
+let array = [];
 //object
-var d;
-var e;
-var f;
+let d;
+let e;
+let f;
 f = ['a', 3, { name: 'Muhaimin' }];

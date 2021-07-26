@@ -1,9 +1,9 @@
 "use strict";
-var myFunc = function (a, b) {
-    console.log("Hello " + a + " " + b);
+let myFunc = (a, b) => {
+    console.log(`Hello ${a} ${b}`);
 };
 myFunc("A", "B");
-var func = function (a, b) {
+const func = (a, b) => {
     return a + b;
 };
 func("2", "B");

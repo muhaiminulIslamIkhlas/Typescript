@@ -1,5 +1,5 @@
 "use strict";
-var playerName;
+let playerName;
 playerName = "Mashrafi";
 console.log(playerName);
 playerName = 34;
@@ -8,9 +8,9 @@ function multiply(a, b) {
     return a * b;
 }
 console.log(multiply(4, 5));
-var fruits = ['apple', 'banana', 'orange'];
+let fruits = ['apple', 'banana', 'orange'];
 // fruits.push(34);
-var person = {
+let person = {
     name: "Muhaimin",
     age: 26,
     isCaptain: false,

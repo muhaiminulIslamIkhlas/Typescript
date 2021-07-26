@@ -1,11 +1,11 @@
 "use strict";
-var add;
-add = function (a, b) {
+let add;
+add = (a, b) => {
     console.log(a + b);
     return a + b;
 };
-var calculation;
-calculation = function (a, b, c) {
+let calculation;
+calculation = (a, b, c) => {
     if (c === 'add') {
         return a + b;
     }
@@ -14,9 +14,9 @@ calculation = function (a, b, c) {
     }
 };
 console.log(calculation(4, 2, 'minus'));
-var userDetails2;
-userDetails2 = function (id, userInfo) {
+let userDetails2;
+userDetails2 = (id, userInfo) => {
     return id + userInfo.name;
 };
-var temp = userDetails2(5, { name: 'M', age: 2 });
+let temp = userDetails2(5, { name: 'M', age: 2 });
 console.log(temp);

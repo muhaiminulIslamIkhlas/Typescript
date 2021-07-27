@@ -7,7 +7,7 @@ const carsByMake: string[][] = [];
 const car = carMaker[0];
 const myCar = carMaker.pop();
 
-carMaker.push(100);
+// carMaker.push(100);
 
 carMaker.map((car: string): string => {
   return car;
